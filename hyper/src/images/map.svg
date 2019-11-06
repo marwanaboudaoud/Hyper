@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.8%" y="-8.9%" width="113.5%" height="125.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.268807165   0 0 0 0 0.618424718   0 0 0 0 1  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M47.8832831,7.87060806 C33.6727568,-5.80663982 21.5684532,0.41359791 19.4622305,10.8337086 C17.3560078,21.2538194 -2.20954995,23.3343589 0.20620066,35.6420512 C2.62195127,47.9497435 28.9359147,40.6420512 28.9359147,51.7958974 C28.9359147,62.9497435 59.360202,62.5651281 59.360202,47.9497435 C59.360202,33.3343589 62.0938094,21.5478559 47.8832831,7.87060806 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepagina" transform="translate(-176.000000, -2886.000000)">
+            <g id="Group-5" transform="translate(0.000000, 2178.000000)">
+                <g id="Testimony-2" filter="url(#filter-1)" transform="translate(150.000000, 680.000000)">
+                    <g id="Icon" transform="translate(30.000000, 30.000000)">
+                        <g id="Ornament/bgicon">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="bgicon" fill-opacity="0.2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <g id="Color/Green" opacity="0.2" mask="url(#mask-3)" fill="#47642E" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="60" height="60"></rect>
+                            </g>
+                        </g>
+                        <g id="icon/home/strategy" transform="translate(7.692308, 8.461538)" stroke-linecap="round" stroke-linejoin="round">
+                            <g id="Group-12">
+                                <polygon id="Stroke-1" stroke="#333333" stroke-width="3" points="0 43 33.7857143 43 33.7857143 0 0 0"></polygon>
+                                <path d="M43,21.5 L40.6964286,27.6428571 L38.3928571,21.5 L38.3928571,2.30357143 C38.3928571,1.032 39.4248571,0 40.6964286,0 C41.968,0 43,1.032 43,2.30357143 L43,21.5 Z" id="Stroke-3" stroke="#333333" stroke-width="3"></path>
+                                <path d="M38.3928571,6.43986429 L43,6.43986429" id="Stroke-4" stroke="#333333" stroke-width="3"></path>
+                                <path d="M7.67857143,38.3928571 L7.67857143,34.5535714 C7.67857143,30.7373214 10.7730357,27.6428571 14.5892857,27.6428571 C18.4055357,27.6428571 21.5,24.5483929 21.5,20.7321429 L21.5,15.3571429" id="Stroke-5" stroke="#F58220" stroke-width="3"></path>
+                                <polyline id="Stroke-6" stroke="#F58220" stroke-width="3" points="16.8928571 19.9642857 21.5 15.3571429 26.1071429 19.9642857"></polyline>
+                                <path d="M24.5714286,7.67857143 C24.5714286,9.374 23.1954286,10.75 21.5,10.75 C19.8045714,10.75 18.4285714,9.374 18.4285714,7.67857143 C18.4285714,5.98314286 19.8045714,4.60714286 21.5,4.60714286 C23.1954286,4.60714286 24.5714286,5.98314286 24.5714286,7.67857143 Z" id="Stroke-7" stroke="#F58220" stroke-width="3"></path>
+                                <path d="M18.4285714,32.25 L24.5714286,38.3928571" id="Stroke-8" stroke="#333333" stroke-width="3"></path>
+                                <path d="M24.5714286,32.25 L18.4285714,38.3928571" id="Stroke-9" stroke="#333333" stroke-width="3"></path>
+                                <path d="M6.14285714,16.8928571 L12.2857143,23.0357143" id="Stroke-10" stroke="#333333" stroke-width="3"></path>
+                                <path d="M12.2857143,16.8928571 L6.14285714,23.0357143" id="Stroke-11" stroke="#333333" stroke-width="3"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,163 @@
+.werkenBijHeader {
+  background-image: url(../images/werken-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  height: 620px;
+}
+
+.werkenBijH1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 220px;
+  @media (max-width: 769px) {
+    margin-left: 20px;
+  }
+}
+
+.thirdHomeContainerSoliciteerBtn {
+  @media (max-width: 769px) {
+    margin-bottom: 30px;
+  }
+}
+.werkenBijsoliciteerBtn {
+  width: 220px;
+  background: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
+  border-color: orange;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 60px;
+  padding: 12px;
+  font-weight: bold;
+  @media (max-width: 769px) {
+    width: 350px;
+    margin-left: 25px;
+  }
+}
+
+.werkenBijsoliciteerBtn:hover {
+  border-color: orange;
+}
+
+.home1ImgContainer {
+  background-image: url(../images/home-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.werkdag1Item {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: -230px;
+  border-radius: 8px;
+}
+.werkenbijFormH1 {
+  color: white;
+}
+.werkenbijFormP {
+  color: white;
+}
+
+.werkdag2Item {
+  background: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
+  margin-left: 20px;
+  margin-top: 60px;
+  color: red;
+  padding-top: 40px;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.werkdag2Item a {
+  color: white;
+}
+
+.form-control {
+  background: none !important;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  padding-bottom: 5px;
+  font-weight: 600;
+  outline: none;
+  color: white;
+}
+
+.firstWerkenBijContainer {
+  margin-top: 120px;
+  background: rgba(71, 100, 46, 0.1);
+  height: 370px;
+}
+
+.firstWerkenBijContainerImg {
+  background-image: url(../images/heartbeat-long.png);
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: calc(100% - 30px);
+  width: 35%;
+  display: none;
+  position: absolute;
+  top: 15px;
+}
+
+.firstWerkenBijContainerH1 {
+  font-size: 29px;
+  line-height: 36px;
+  color: #142407;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.werken-2 {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-left: 20px;
+}
+
+.firstWerkenBijContainerP {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.firstWerkenBijContainerP2 {
+  color: orange;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.mooiCarrierContainer {
+  margin-top: 90px;
+}
+.soliciteerBtn a {
+  color: white;
+}
+
+.mooiCarrierContainerP {
+  font-size: 16px;
+  line-height: 28px;
+  color: #142407;
+  margin-bottom: 40px;
+  font-weight: 100;
+}
+
+.lastWerkenbihContainer {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}

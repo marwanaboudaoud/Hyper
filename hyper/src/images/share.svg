@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.7%" y="-8.9%" width="113.5%" height="125.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.268807165   0 0 0 0 0.618424718   0 0 0 0 1  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M47.8832831,7.87060806 C33.6727568,-5.80663982 21.5684532,0.41359791 19.4622305,10.8337086 C17.3560078,21.2538194 -2.20954995,23.3343589 0.20620066,35.6420512 C2.62195127,47.9497435 28.9359147,40.6420512 28.9359147,51.7958974 C28.9359147,62.9497435 59.360202,62.5651281 59.360202,47.9497435 C59.360202,33.3343589 62.0938094,21.5478559 47.8832831,7.87060806 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepagina" transform="translate(-680.000000, -2886.000000)">
+            <g id="Group-5" transform="translate(0.000000, 2178.000000)">
+                <g id="Testimony-2" filter="url(#filter-1)" transform="translate(654.000000, 680.000000)">
+                    <g id="Icon" transform="translate(30.000000, 30.000000)">
+                        <g id="Ornament/bgicon">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="bgicon" fill-opacity="0.2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <g id="Color/Green" opacity="0.2" mask="url(#mask-3)" fill="#47642E" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="60" height="60"></rect>
+                            </g>
+                        </g>
+                        <g id="icon/home/share" transform="translate(7.692308, 8.461538)" stroke-linecap="round" stroke-linejoin="round">
+                            <g id="Group-13">
+                                <path d="M30.7142857,6.14285714 C30.7142857,9.53525 33.46475,12.2857143 36.8571429,12.2857143 C40.2495357,12.2857143 43,9.53525 43,6.14285714 C43,2.75046429 40.2495357,0 36.8571429,0 C33.46475,0 30.7142857,2.75046429 30.7142857,6.14285714 Z" id="Stroke-1" stroke="#333333" stroke-width="3"></path>
+                                <path d="M30.7142857,36.8571429 C30.7142857,40.2495357 33.46475,43 36.8571429,43 C40.2495357,43 43,40.2495357 43,36.8571429 C43,33.46475 40.2495357,30.7142857 36.8571429,30.7142857 C33.46475,30.7142857 30.7142857,33.46475 30.7142857,36.8571429 Z" id="Stroke-3" stroke="#333333" stroke-width="3"></path>
+                                <path d="M0,21.5 C0,26.1655 3.78246429,29.9464286 8.44642857,29.9464286 C13.1103929,29.9464286 16.8928571,26.1655 16.8928571,21.5 C16.8928571,16.8345 13.1103929,13.0535714 8.44642857,13.0535714 C3.78246429,13.0535714 0,16.8345 0,21.5 Z" id="Stroke-5" stroke="#333333" stroke-width="3"></path>
+                                <path d="M4.60714286,21.5 C4.60714286,19.3837857 6.33021429,17.6607143 8.44642857,17.6607143" id="Stroke-7" stroke="#F58220" stroke-width="3"></path>
+                                <path d="M16.125,25.3392857 L31.4882857,33.8747857" id="Stroke-9" stroke="#333333" stroke-width="3"></path>
+                                <path d="M31.4881321,9.12582857 L16.1248464,17.6613286" id="Stroke-11" stroke="#333333" stroke-width="3"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

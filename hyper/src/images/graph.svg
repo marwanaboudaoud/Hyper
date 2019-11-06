@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.7%" y="-8.9%" width="113.5%" height="125.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.268807165   0 0 0 0 0.618424718   0 0 0 0 1  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M47.8832831,7.87060806 C33.6727568,-5.80663982 21.5684532,0.41359791 19.4622305,10.8337086 C17.3560078,21.2538194 -2.20954995,23.3343589 0.20620066,35.6420512 C2.62195127,47.9497435 28.9359147,40.6420512 28.9359147,51.7958974 C28.9359147,62.9497435 59.360202,62.5651281 59.360202,47.9497435 C59.360202,33.3343589 62.0938094,21.5478559 47.8832831,7.87060806 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepagina" transform="translate(-680.000000, -2608.000000)">
+            <g id="Group-5" transform="translate(0.000000, 2178.000000)">
+                <g id="Testimony-2" filter="url(#filter-1)" transform="translate(654.000000, 402.000000)">
+                    <g id="Icon" transform="translate(30.000000, 30.000000)">
+                        <g id="Ornament/bgicon">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="bgicon" fill-opacity="0.2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <g id="Color/Green" opacity="0.2" mask="url(#mask-3)" fill="#47642E" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="60" height="60"></rect>
+                            </g>
+                        </g>
+                        <g id="icon/home/graph_up" transform="translate(7.692308, 8.461538)" stroke-linecap="round" stroke-linejoin="round">
+                            <g id="Group-7">
+                                <polygon id="Stroke-1" stroke="#333333" stroke-width="3" points="16.8928571 43 26.1071429 43 26.1071429 26.1071429 16.8928571 26.1071429"></polygon>
+                                <polygon id="Stroke-3" stroke="#333333" stroke-width="3" points="0 43 9.21428571 43 9.21428571 32.25 0 32.25"></polygon>
+                                <polygon id="Stroke-4" stroke="#333333" stroke-width="3" points="33.7857143 43 43 43 43 16.8928571 33.7857143 16.8928571"></polygon>
+                                <polyline id="Stroke-5" stroke="#F58220" stroke-width="3" points="33.7857143 0 43 0 43 9.21428571"></polyline>
+                                <path d="M43,0 C43,0 26.7321786,22.1849286 0,23.0111429" id="Stroke-6" stroke="#F58220" stroke-width="3"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

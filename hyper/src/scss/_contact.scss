@@ -1,0 +1,160 @@
+.contactHeader {
+  background-image: url(../images/contact-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  height: 620px;
+}
+
+.contactForm {
+  background: rgba(71, 100, 46, 0.1);
+  margin-top: 40px;
+  color: red;
+  padding-top: 40px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.contactFormBtn {
+  width: 190px;
+  background: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
+  border-color: orange;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 240px;
+  box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
+  @media (max-width: 769px) {
+    width: 350px;
+    margin-left: 25px;
+  }
+}
+
+.contactFormBtn:hover {
+  border-color: orange;
+}
+
+.contactBoldP {
+  font-weight: bold;
+}
+
+.contactImage1 {
+  margin-right: 20px;
+}
+
+.contactImage2 {
+  margin-right: 30px;
+}
+
+.form-control-contact {
+  background: none !important;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  padding-bottom: 10px;
+  font-weight: 600;
+  outline: none;
+  color: white;
+  margin-bottom: 20px;
+}
+.last-form-control-contact {
+  background: none !important;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  padding-bottom: 10px;
+  font-weight: 600;
+  outline: none;
+  color: white;
+  height: 80px;
+}
+.contact1Item {
+  padding-right: 50px;
+}
+
+.firstContactContainer {
+  margin-bottom: 70px;
+}
+
+.mapContainer {
+  margin-bottom: 70px;
+}
+
+.mapDetails {
+  background: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
+  z-index: 3;
+  margin-top: 170px;
+  margin-left: 30px;
+  position: absolute;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.mapDeatailsP1 {
+  font-weight: bold;
+  color: white;
+}
+
+.mapDeatailsP {
+  margin-top: -10px;
+  color: white;
+}
+
+.secondContactContainer {
+  margin-top: 140px;
+  padding-bottom: 120px;
+  background: rgba(71, 100, 46, 0.1);
+}
+
+.secondContactContainer2 {
+  background-color: white;
+  padding-bottom: 50px;
+  margin-top: -70px;
+  box-shadow: -2px 3px 4px 5px rgba(0, 0, 0, 0.1);
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.secondContactContainerH1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.secondContactContainerP {
+  text-align: center;
+}
+
+.secondContactContainerbtns {
+  width: 190px;
+  background: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
+  border-color: orange;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
+  @media (max-width: 769px) {
+    width: 350px;
+    margin-left: 25px;
+  }
+}
+
+.secondContactContainerbtns:hover {
+  border-color: orange;
+}
+
+.secondContactContainerImages {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

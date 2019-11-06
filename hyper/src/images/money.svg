@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.8%" y="-8.9%" width="113.5%" height="125.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.268807165   0 0 0 0 0.618424718   0 0 0 0 1  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M47.8832831,7.87060806 C33.6727568,-5.80663982 21.5684532,0.41359791 19.4622305,10.8337086 C17.3560078,21.2538194 -2.20954995,23.3343589 0.20620066,35.6420512 C2.62195127,47.9497435 28.9359147,40.6420512 28.9359147,51.7958974 C28.9359147,62.9497435 59.360202,62.5651281 59.360202,47.9497435 C59.360202,33.3343589 62.0938094,21.5478559 47.8832831,7.87060806 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepagina" transform="translate(-176.000000, -2608.000000)">
+            <g id="Group-5" transform="translate(0.000000, 2178.000000)">
+                <g id="Testimony-2" filter="url(#filter-1)" transform="translate(150.000000, 402.000000)">
+                    <g id="Icon" transform="translate(30.000000, 30.000000)">
+                        <g id="Ornament/bgicon">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="bgicon" fill-opacity="0.2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <g id="Color/Green" opacity="0.2" mask="url(#mask-3)" fill="#47642E" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="60" height="60"></rect>
+                            </g>
+                        </g>
+                        <g id="icon/home/money" transform="translate(7.692308, 8.461538)" stroke-linecap="round" stroke-linejoin="round">
+                            <g id="Group-11">
+                                <path d="M32.25,10.75 C32.25,16.6870714 27.4370714,21.5 21.5,21.5 C15.5629286,21.5 10.75,16.6870714 10.75,10.75 C10.75,4.81292857 15.5629286,0 21.5,0 C27.4370714,0 32.25,4.81292857 32.25,10.75 Z" id="Stroke-1" stroke="#333333" stroke-width="3"></path>
+                                <path d="M24.4455,7.51578571 C24.1199286,6.53907143 23.1985,5.83571429 22.1142857,5.83571429 L20.8857143,5.83571429 C19.5296786,5.83571429 18.4285714,6.93528571 18.4285714,8.29285714 C18.4285714,9.65042857 19.5296786,10.75 20.8857143,10.75 L22.1142857,10.75 C23.4703214,10.75 24.5714286,11.8495714 24.5714286,13.2071429 C24.5714286,14.5647143 23.4703214,15.6642857 22.1142857,15.6642857 L20.8857143,15.6642857 C19.7707857,15.6642857 18.8293929,14.921 18.5283929,13.9028214" id="Stroke-3" stroke="#F58220" stroke-width="3"></path>
+                                <path d="M21.4330768,16.1279219 L21.5669232,17.6577924" id="Stroke-7" stroke="#F58220" stroke-width="3" transform="translate(21.500000, 16.892857) rotate(5.000000) translate(-21.500000, -16.892857) "></path>
+                                <path d="M21.4330768,3.87274729 L21.5669232,5.40261772" id="Stroke-7" stroke="#F58220" stroke-width="3" transform="translate(21.500000, 4.637683) rotate(5.000000) translate(-21.500000, -4.637683) "></path>
+                                <path d="M16.4998679,35.3214286 L21.5001536,35.3214286 C23.1955821,35.3214286 24.5715821,33.9454286 24.5715821,32.25 C24.5715821,30.5545714 23.1955821,29.1785714 21.5001536,29.1785714 L13.8215821,29.1785714 C13.8215821,29.1785714 9.21443929,26.1071429 6.14301071,26.1071429 C3.07158214,26.1071429 0.000153571429,29.1785714 0.000153571429,29.1785714 L0.000153571429,43 L24.5715821,43 L43.0001536,32.25 C43.0001536,30.0585357 40.7702964,28.5719643 38.746225,29.4150714 L24.5715821,35.3214286 L12.2858679,35.3214286" id="Stroke-9" stroke="#333333" stroke-width="3"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -13,6 +13,7 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 
 class Slider extends Component {
   state = {}
+
   render () {
     return (
       <>

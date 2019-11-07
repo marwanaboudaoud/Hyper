@@ -10,20 +10,22 @@ import { Route, Switch, Link } from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Logo from './images/logo.svg'
 import LogoColor from './images/logo-color.svg'
+import './components/loader'
 
 export default class App extends React.Component {
   state = {
     color: 'white',
     backgroundColor: 'transparent'
   }
+
   listenScrollEvent = e => {
     if (window.scrollY > 80) {
       this.setState({
         color: 'black',
         backgroundColor: 'white'
       })
-    } else {
-      this.setState({ color: 'white', backgroundColor: '' })
+    } else if (window.innerWidth >= 769) {
+      this.setState({ color: 'white', backgroundColor: 'transparent' })
     }
   }
 
@@ -50,28 +52,36 @@ export default class App extends React.Component {
                   )}
                 </Link>
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls='basic-navbar-nav' />
-              <Navbar.Collapse id='basic-navbar-nav'>
+              <Navbar.Toggle aria-controls='basic-navbar-nav' bg='light' />
+              <Navbar.Collapse id='basic-navbar-nav '>
                 <Nav>
-                  <Nav.Link className='navContent'>
-                    <Link to='Home' style={{ color: this.state.color }}>
-                      Over ons
-                    </Link>
+                  <Nav.Link
+                    className='navContent'
+                    href='Home'
+                    style={{ color: this.state.color }}
+                  >
+                    Over ons
                   </Nav.Link>
-                  <Nav.Link className='navContent'>
-                    <Link to='WerkenBij' style={{ color: this.state.color }}>
-                      Werken Bij
-                    </Link>
+                  <Nav.Link
+                    className='navContent'
+                    href='WerkenBij'
+                    style={{ color: this.state.color }}
+                  >
+                    Werken Bij
                   </Nav.Link>
-                  <Nav.Link className='navContent'>
-                    <Link to='PartnerShips' style={{ color: this.state.color }}>
-                      Partnerships
-                    </Link>
+                  <Nav.Link
+                    className='navContent'
+                    href='PartnerShips'
+                    style={{ color: this.state.color }}
+                  >
+                    Partnerships
                   </Nav.Link>
-                  <Nav.Link className='navContact'>
-                    <Link to='Contact' style={{ color: this.state.color }}>
-                      Contact
-                    </Link>
+                  <Nav.Link
+                    className='navContact'
+                    href='Contact'
+                    style={{ color: this.state.color }}
+                  >
+                    Contact
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>

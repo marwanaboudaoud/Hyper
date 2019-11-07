@@ -11,6 +11,7 @@ import Share from '../images/share.svg'
 import Bullseye from '../images/bullseye.svg'
 import Footer from '../components/footer'
 import SliderItem from '../components/slider'
+import CloseMenu from '../components/closeMenu'
 
 class Home extends Component {
   state = {
@@ -82,7 +83,7 @@ class Home extends Component {
         </div>
         <div className='firstHomeContainer'>
           <Container>
-            <Row>
+            <Row className='overOnsRow'>
               <Col md={6}>
                 <img className='home2Img' src={Home2} />
               </Col>

@@ -10,8 +10,7 @@ import Money from '../images/money.svg'
 import Share from '../images/share.svg'
 import Bullseye from '../images/bullseye.svg'
 import Footer from '../components/footer'
-import SliderItem from '../components/slider'
-import CloseMenu from '../components/closeMenu'
+import Slider from '../components/slider'
 
 class Home extends Component {
   state = {
@@ -151,7 +150,7 @@ class Home extends Component {
         <div className='thirdHomeContainer'>
           <Container>
             {this.state.isMobile ? (
-              <SliderItem />
+              <Slider />
             ) : (
               <>
                 <Row>

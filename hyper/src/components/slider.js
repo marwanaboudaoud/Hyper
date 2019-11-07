@@ -7,7 +7,7 @@ import Graph from '../images/graph.svg'
 import Money from '../images/money.svg'
 import Share from '../images/share.svg'
 import AwesomeSlider from 'react-awesome-slider'
-// import Slider from 'react-slick'
+
 import 'react-awesome-slider/dist/styles.css'
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 

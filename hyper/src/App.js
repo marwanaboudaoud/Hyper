@@ -10,7 +10,6 @@ import { Route, Switch, Link } from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Logo from './images/logo.svg'
 import LogoColor from './images/logo-color.svg'
-import './components/loader'
 
 export default class App extends React.Component {
   state = {

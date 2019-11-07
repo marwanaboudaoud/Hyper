@@ -152,7 +152,7 @@ class Contact extends Component {
                     kun je het contactformulier invullen of ons bereiken op via
                     onderstaande gegevens.
                   </p>
-                  <p>
+                  <p className='middleContactP'>
                     Sta je ons liever persoonlijk te woord? Onze deur staat
                     altijd voor je open!
                   </p>
@@ -243,13 +243,15 @@ class Contact extends Component {
                     />
                     <span className='help-block'>{bericht.message}</span>
                   </div>
-                  <Button
-                    variant='primary'
-                    className='contactFormBtn'
-                    type='submit'
-                  >
-                    Verstuur
-                  </Button>
+                  <div className='contacFormBtnContainer'>
+                    <Button
+                      variant='primary'
+                      className='contactFormBtn'
+                      type='submit'
+                    >
+                      Verstuur
+                    </Button>
+                  </div>
                 </Form>
               </Col>
             </Row>

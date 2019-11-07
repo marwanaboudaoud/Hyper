@@ -116,6 +116,11 @@ class PartnerShips extends Component {
     this.setState(state)
   }
 
+  checkScrollTop = scroll => {
+    const applySectionOffset = this.refs.applyScrollTo.offsetTop - 200
+    scroll({ y: applySectionOffset, smooth: true })
+  }
+
   resetForm = () => {
     this.setState(...this.formDefaults)
   }
@@ -159,7 +164,7 @@ class PartnerShips extends Component {
                       <Button
                         variant='primary'
                         className='werkenBijsoliciteerBtn'
-                        onClick={() => scroll({ y: 2200, smooth: true })}
+                        onClick={() => this.checkScrollTop(scroll)}
                       >
                         Word partner
                       </Button>
@@ -301,7 +306,7 @@ class PartnerShips extends Component {
             </Row>
           </Container>
         </div>
-        <div className='fifthPartnershipContainer'>
+        <div className='fifthPartnershipContainer' ref='applyScrollTo'>
           <Container>
             <Row>
               <Col md={{ span: 8, offset: 2 }}>

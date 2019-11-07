@@ -78,7 +78,7 @@ export default class App extends React.Component {
                   <Nav.Link
                     className='navContact'
                     href='Contact'
-                    style={{ color: this.state.color }}
+                    style={{ color: 'white' }}
                   >
                     Contact
                   </Nav.Link>

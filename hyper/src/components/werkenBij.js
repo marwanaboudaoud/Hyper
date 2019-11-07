@@ -87,6 +87,11 @@ class WerkenBij extends Component {
     this.setState(state)
   }
 
+  checkScrollTop = scroll => {
+    const applySectionOffset = this.refs.applyScrollTo.offsetTop - 200
+    scroll({ y: applySectionOffset, smooth: true })
+  }
+
   resetForm = () => {
     this.setState(...this.formDefaults)
   }
@@ -103,8 +108,6 @@ class WerkenBij extends Component {
       'has-error': !telefoonnummer.isValid
     })
 
-    let styles = { color: 'white' }
-
     return (
       <div>
         <div className='werkenBijHeader'>
@@ -117,7 +120,7 @@ class WerkenBij extends Component {
                     <Button
                       variant='primary'
                       className='werkenBijsoliciteerBtn'
-                      onClick={() => scroll({ y: 1500, smooth: true })}
+                      onClick={() => this.checkScrollTop(scroll)}
                     >
                       Soliciteer
                     </Button>
@@ -199,7 +202,7 @@ class WerkenBij extends Component {
                 </div>
               </Col>
 
-              <Col md={5} className='werkdag2Item'>
+              <Col md={5} className='werkdag2Item' ref='applyScrollTo'>
                 <h1 className='werkenbijFormH1'>Solliciteer nu!</h1>
                 <p className='werkenbijFormP'>
                   Laat je gegevens achter en we nemen spoedig contact met je op!

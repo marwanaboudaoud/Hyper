@@ -8,6 +8,9 @@
   transition: 0.4s;
   position: fixed;
   background: transparent;
+  @media (max-width: 400px) {
+    width: 100%;
+  }
 }
 
 .navContent {
@@ -48,7 +51,7 @@
   font-weight: bold;
   font-size: 16px;
   border-color: orange;
-  padding: 14px;
+  padding: 10px;
   border-radius: 23px;
   color: white;
   @media (max-width: 769px) {

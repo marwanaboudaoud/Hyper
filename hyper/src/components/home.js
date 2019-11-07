@@ -10,9 +10,7 @@ import Money from '../images/money.svg'
 import Share from '../images/share.svg'
 import Bullseye from '../images/bullseye.svg'
 import Footer from '../components/footer'
-import AwesomeSlider from 'react-awesome-slider'
-import 'react-awesome-slider/dist/styles.css'
-import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
+import SliderItem from '../components/slider'
 
 class Home extends Component {
   state = {
@@ -26,7 +24,7 @@ class Home extends Component {
     const body = d.getElementsByTagName('body')[0]
     const width =
       w.innerWidth || documentElement.clientWidth || body.clientWidth
-    if (width <= 768) {
+    if (width <= 769) {
       this.setState({ isMobile: true })
     } else {
       this.setState({ isMobile: false })
@@ -92,7 +90,7 @@ class Home extends Component {
               <Col md={6}>
                 <div className='overOnsContainer'>
                   <h1 className='homeOverOns'>Over ons</h1>
-                  <p>
+                  <p className='overOnsContainerP'>
                     Aangenaam, wij zijn Hyper.voortgekomen uit jarenlange
                     ervaring en experise op het gebied van sales en
                     ambassadeurschap.wij kennen het lappen van de zweep,wetwn
@@ -123,7 +121,7 @@ class Home extends Component {
               <Col md={6}>
                 <div className='hyperfocusContainer'>
                   <h1 className='homeOverOns'>Hyperfocus</h1>
-                  <p>
+                  <p className='overOnsContainerP'>
                     Alles wat je aandacht geeft,groeit.Darrom behoren
                     onverdeelde aandacht en toewiding tot de kern van ons
                     bedrijf.Aandacht voor onze werknemers, aandacht voor onze
@@ -152,128 +150,7 @@ class Home extends Component {
         <div className='thirdHomeContainer'>
           <Container>
             {this.state.isMobile ? (
-              <>
-                <Row>
-                  <Col md={6}>
-                    <h1 className='thirdHomeH1'>Ben jij een Hyper?</h1>
-                    <p className='thirdHomeP1'>
-                      Klinkt het als muziek in de oren ? En denk je dat je uit
-                      het juiste Hyper-hout gesneden bent? Dan willen we je
-                      graag leren kennen ! Klik op de onderstaande buuton en
-                      laat je gegevens achter.
-                    </p>
-                    <Link to='WerkenBij'>
-                      <Button
-                        variant='primary'
-                        className='thirdHomeContainerSoliciteerBtn'
-                      >
-                        Solliciteer
-                      </Button>
-                    </Link>
-                  </Col>
-                </Row>
-                <AwesomeSlider
-                  className='slider'
-                  cssModule={AwesomeSliderStyles}
-                  touchEnabled
-                >
-                  <Row>
-                    <Col md={6}>
-                      <div className='thirdHomeContainerItems'>
-                        <p className='thirdHomeContainerItemsP'>
-                          <img
-                            className='thirdHomeContainerItemsIcon'
-                            src={Rocket}
-                          />
-                          <strong>Sta je open om te leren van anderen?</strong>
-                        </p>
-                        <p className='thirdHomeContainerItemsP'>
-                          Binnen Hyper tref je een schat van kennis en ervaring
-                          aan die we maar al te graag met je willen delen. Maar
-                          dan moet je wel openstaan voor feedback en bereid zijn
-                          om te leren.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md={6}>
-                      <div className='thirdHomeContainerItems'>
-                        <p className='thirdHomeContainerItemsP'>
-                          <img
-                            className='thirdHomeContainerItemsIcon'
-                            src={Money}
-                          />
-                          <strong>Sta je open om te leren van anderen?</strong>
-                        </p>
-                        <p className='thirdHomeContainerItemsP'>
-                          Binnen Hyper tref je een schat van kennis en ervaring
-                          aan die we maar al te graag met je willen delen. Maar
-                          dan moet je wel openstaan voor feedback en bereid zijn
-                          om te leren.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md={6}>
-                      <div className='thirdHomeContainerItems'>
-                        <p className='thirdHomeContainerItemsP'>
-                          <img
-                            className='thirdHomeContainerItemsIcon'
-                            src={Graph}
-                          />
-                          <strong>Sta je open om te leren van anderen?</strong>
-                        </p>
-                        <p className='thirdHomeContainerItemsP'>
-                          Binnen Hyper tref je een schat van kennis en ervaring
-                          aan die we maar al te graag met je willen delen. Maar
-                          dan moet je wel openstaan voor feedback en bereid zijn
-                          om te leren.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md={6}>
-                      <div className='thirdHomeContainerItems'>
-                        <p className='thirdHomeContainerItemsP'>
-                          <img
-                            className='thirdHomeContainerItemsIcon'
-                            src={Map}
-                          />
-                          <strong>Sta je open om te leren van anderen?</strong>
-                        </p>
-                        <p className='thirdHomeContainerItemsP'>
-                          Binnen Hyper tref je een schat van kennis en ervaring
-                          aan die we maar al te graag met je willen delen. Maar
-                          dan moet je wel openstaan voor feedback en bereid zijn
-                          om te leren.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md={6}>
-                      <div className='thirdHomeContainerItems'>
-                        <p className='thirdHomeContainerItemsP'>
-                          <img
-                            className='thirdHomeContainerItemsIcon'
-                            src={Share}
-                          />
-                          <strong>Sta je open om te leren van anderen?</strong>
-                        </p>
-                        <p className='thirdHomeContainerItemsP'>
-                          Binnen Hyper tref je een schat van kennis en ervaring
-                          aan die we maar al te graag met je willen delen. Maar
-                          dan moet je wel openstaan voor feedback en bereid zijn
-                          om te leren.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                </AwesomeSlider>
-              </>
+              <SliderItem />
             ) : (
               <>
                 <Row>
@@ -460,7 +337,7 @@ class Home extends Component {
             <Row>
               <Col md={{ span: 1, offset: 3 }}>
                 <Link to='PartnerShips'>
-                  <Button variant='primary' className='soliciteerBtn '>
+                  <Button variant='primary' className='LastHomeSoliciteerBtn'>
                     Partner worden
                   </Button>
                 </Link>

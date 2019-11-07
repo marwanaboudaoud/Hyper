@@ -17,6 +17,14 @@
   font-size: 16px;
 }
 
+.navContainer a {
+  color: red;
+}
+
+.navbar-nav .nav-link {
+  text-align: center;
+}
+
 .navbar-collapse {
   justify-content: flex-end;
 }
@@ -26,6 +34,9 @@
   border-color: orange;
   border-radius: 20px;
   color: white;
+  @media (max-width: 769px) {
+    padding-left: 50px;
+  }
 }
 
 .navContact a {
@@ -39,8 +50,8 @@
   color: white;
 }
 
-.navbar a:hover {
-  color: orange;
+.navbar :hover {
+  text-decoration: none;
 }
 
 // .mobileMenu {

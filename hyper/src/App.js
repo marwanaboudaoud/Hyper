@@ -5,11 +5,9 @@ import Home from './components/home'
 import Contact from './components/contact'
 import PartnerShips from './components/partnerShips'
 import WerkenBij from './components/werkenBij'
-import ScrollToTop from './components/scrollToTop'
-import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 import { Route, Switch, Link } from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
-
 import Logo from './images/logo.svg'
 import LogoColor from './images/logo-color.svg'
 
@@ -76,10 +74,6 @@ export default class App extends React.Component {
                     </Link>
                   </Nav.Link>
                 </Nav>
-                {/* <Form inline>
-        <FormControl type='text' placeholder='Search' className='mr-sm-2' />
-        <Button variant='outline-info'>Search</Button>
-      </Form> */}
               </Navbar.Collapse>
             </Container>
           </Navbar>

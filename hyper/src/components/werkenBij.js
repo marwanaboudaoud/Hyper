@@ -165,7 +165,7 @@ class WerkenBij extends Component {
               <Col md={6} className='werkdag1Item'>
                 <div className='overOnsContainer'>
                   <h1 className='homeOverOns'>Hoe een werkdag eruit ziet?</h1>
-                  <p>
+                  <p className='overOnsContainerP'>
                     In de ochtend verzamelen we op kantoor. Hier krijg je te
                     horen waar en met wie je gaat werken. De eerste paar keer ga
                     je met een ervaren Hyper op pad, die het voortouw neemt en
@@ -242,7 +242,7 @@ class WerkenBij extends Component {
                   </div>
                   <Button
                     variant='primary'
-                    className='thirdHomeContainerSoliciteerBtn'
+                    className='werkenbijFormButton'
                     type='submit'
                   >
                     Soliciteer

@@ -37,8 +37,7 @@
   box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
 
   @media (max-width: 769px) {
-    width: 350px;
-    margin-left: 25px;
+    width: 390px;
   }
 }
 
@@ -56,6 +55,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 70px;
+  margin-top: 70px;
 }
 .home2Img {
   width: 80%;
@@ -98,11 +98,12 @@
 
 .SecondtHomeContainer {
   margin-bottom: 70px;
+  margin-top: 100px;
 }
 .thirdHomeContainer {
   background: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .thirdHomeContainerSoliciteerBtn {
@@ -117,7 +118,7 @@
   font-weight: bold;
   box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
   @media (max-width: 769px) {
-    width: 350px;
+    width: 390px;
     margin-left: 25px;
   }
 }
@@ -149,7 +150,7 @@
 }
 
 .thirdHomeContainerItemsP {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .home4ImgContainer {
@@ -162,7 +163,7 @@
 }
 
 .FourthHomeContainer {
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .FourthHomeContainerH1 {
@@ -173,7 +174,11 @@
 .FourthHomeContainerP {
   text-align: center;
   margin-top: 10px;
+  line-height: 28px;
   font-size: 17px;
+  @media (max-width: 769px) {
+    text-align: left;
+  }
 }
 
 .FifthhHomeContainer {
@@ -192,25 +197,46 @@
 }
 
 .sixthhHomeContainer {
-  margin-top: 20px;
-  margin-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 120px;
 }
 
+.LastHomeSoliciteerBtn {
+  width: 220px;
+  background: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
+  border-color: orange;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 25px;
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
+
+  @media (max-width: 769px) {
+    width: 350px;
+    margin-left: 25px;
+  }
+}
 .meerInfoBtn {
   border-color: lightgray;
-  width: 190px;
+  width: 220px;
   color: orange;
   background-color: white;
   color: linear-gradient(225deg, #fbb843 0%, #f58220 100%);
-  border-radius: 20px;
+  border-radius: 25px;
   margin-top: 10px;
-  padding: 10px;
+  margin-right: 25px;
+  padding: 15px;
   font-weight: bold;
   box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
   @media (max-width: 769px) {
     width: 350px;
     margin-left: 25px;
   }
+}
+
+.overOnsContainerP {
+  line-height: 28px;
 }
 
 .meerInfoBtn:hover {
@@ -228,7 +254,9 @@
 }
 
 .awssld__controls button {
-  display: none;
+  @media (max-width: 520px) {
+    visibility: visible;
+  }
 }
 
 .animation {
@@ -249,7 +277,6 @@
   height: 60px;
   @media (max-width: 769px) {
     height: 80px;
-
     margin-bottom: -22px;
   }
 }

@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-import { Button, Container, Row, Col } from 'react-bootstrap'
-
+import { Container, Row, Col } from 'react-bootstrap'
 import Youtube from '../images/youtube.svg'
 import Instagram from '../images/instagram.svg'
 import Facebook from '../images/facebook.svg'
-
 import Logo from '../images/logo.svg'
-
 import { Link } from 'react-router-dom'
 
 class Footer extends Component {

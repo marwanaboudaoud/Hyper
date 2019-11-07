@@ -103,6 +103,8 @@ class WerkenBij extends Component {
       'has-error': !telefoonnummer.isValid
     })
 
+    let styles = { color: 'white' }
+
     return (
       <div>
         <div className='werkenBijHeader'>
@@ -203,7 +205,7 @@ class WerkenBij extends Component {
                   Laat je gegevens achter en we nemen spoedig contact met je op!
                 </p>
 
-                <Form onSubmit={this.onSubmit}>
+                <Form onSubmit={this.onSubmit} className='werkbijForm'>
                   <div className={voornaamGroupClass}>
                     <input
                       type='text'
@@ -214,7 +216,7 @@ class WerkenBij extends Component {
                       onChange={this.onChange}
                       autoFocus
                     />
-                    <span className='help-block'>{voornaam.message}</span>
+                    <span className='help-block'>{voornaam.message} </span>
                   </div>
 
                   <div className={achternaamGroupClass}>

@@ -211,12 +211,16 @@
   padding: 15px;
   font-weight: bold;
   box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
-
   @media (max-width: 769px) {
     width: 350px;
     margin-left: 25px;
   }
 }
+
+.LastHomeSoliciteerBtn:hover {
+  border-color: orange;
+}
+
 .meerInfoBtn {
   border-color: lightgray;
   width: 220px;
@@ -270,117 +274,3 @@
     font-size: 42px;
   }
 }
-
-.animationSpan {
-  height: 60px;
-  @media (max-width: 769px) {
-    height: 80px;
-    margin-bottom: -22px;
-  }
-}
-
-.animation {
-  overflow: hidden;
-  height: 120px;
-  @media (max-width: 769px) {
-    height: 60px;
-  }
-  @media (min-width: 769px) {
-    height: 80px;
-  }
-  .animated {
-    animation: headerAnimation 12s infinite;
-    animation-timing-function: cubic-bezier(0.5, 0.16, 0.48, 0.86);
-    @media (max-width: 769px) {
-      max-width: 370px;
-    }
-  }
-  @keyframes headerAnimation {
-    0% {
-      transform: translateY(0);
-    }
-    30% {
-      transform: translateY(0);
-    }
-    33% {
-      transform: translateY(-110px);
-    }
-    63% {
-      transform: translateY(-110px);
-    }
-    66% {
-      transform: translateY(-220px);
-    }
-    96% {
-      transform: translateY(-220px);
-    }
-    100% {
-      transform: translateY(-330px);
-    }
-  }
-  @media (max-width: 769px) {
-    @keyframes headerAnimation {
-      0% {
-        transform: translateY(0);
-      }
-      30% {
-        transform: translateY(0);
-      }
-      33% {
-        transform: translateY(-60px);
-      }
-      63% {
-        transform: translateY(-60px);
-      }
-      66% {
-        transform: translateY(-120px);
-      }
-      96% {
-        transform: translateY(-120px);
-      }
-      100% {
-        transform: translateY(-180px);
-      }
-    }
-  }
-  @media (min-width: 769px) {
-    @keyframes headerAnimation {
-      0% {
-        transform: translateY(0);
-      }
-      30% {
-        transform: translateY(0);
-      }
-      33% {
-        transform: translateY(-80px);
-      }
-      63% {
-        transform: translateY(-80px);
-      }
-      66% {
-        transform: translateY(-160px);
-      }
-      96% {
-        transform: translateY(-160px);
-      }
-      100% {
-        transform: translateY(-240px);
-      }
-    }
-  }
-}
-// &.sub {
-//   margin-bottom: 0;
-//   display: flex;
-//   flex-wrap: wrap;
-//   align-items: center;
-//   width: 100%;
-//   min-height: 400px;
-//   padding-top: 50px;
-//   @media (min-width: 769px) {
-//     min-height: 450px;
-//   }
-//   .h1 {
-//     margin-bottom: 50px;
-//   }
-// }

@@ -124,6 +124,7 @@ class PartnerShips extends Component {
   resetForm = () => {
     this.setState(...this.formDefaults)
   }
+
   render () {
     const {
       voornaam,
@@ -133,24 +134,31 @@ class PartnerShips extends Component {
       bedrifsnaam,
       bericht
     } = this.state
+
     const voornaamGroupClass = classNames('form-group', {
       'has-error': !voornaam.isValid
     })
+
     const achternaamGroupClass = classNames('form-group', {
       'has-error': !achternaam.isValid
     })
+
     const telefoonnummerGroupClass = classNames('form-group', {
       'has-error': !telefoonnummer.isValid
     })
+
     const emailadresGroupClass = classNames('form-group', {
       'has-error': !emailadres.isValid
     })
+
     const bedrifsnaamGroupClass = classNames('form-group', {
       'has-error': !bedrifsnaam.isValid
     })
+
     const berichtGroupClass = classNames('form-group', {
       'has-error': !bericht.isValid
     })
+
     return (
       <div>
         <div className='partnershipsHeader'>

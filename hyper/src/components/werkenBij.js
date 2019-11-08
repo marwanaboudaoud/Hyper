@@ -98,12 +98,15 @@ class WerkenBij extends Component {
 
   render () {
     const { voornaam, achternaam, telefoonnummer } = this.state
+
     const voornaamGroupClass = classNames('form-group', {
       'has-error': !voornaam.isValid
     })
+
     const achternaamGroupClass = classNames('form-group', {
       'has-error': !achternaam.isValid
     })
+
     const telefoonnummerGroupClass = classNames('form-group', {
       'has-error': !telefoonnummer.isValid
     })
@@ -136,7 +139,6 @@ class WerkenBij extends Component {
               <Col md={6}>
                 <img className='home2Img' src={Werken2} />
               </Col>
-
               <Col md={6}>
                 <div className='overOnsContainer'>
                   <h1 className='homeOverOns'>
@@ -201,13 +203,11 @@ class WerkenBij extends Component {
                   </p>
                 </div>
               </Col>
-
               <Col md={5} className='werkdag2Item' ref='applyScrollTo'>
                 <h1 className='werkenbijFormH1'>Solliciteer nu!</h1>
                 <p className='werkenbijFormP'>
                   Laat je gegevens achter en we nemen spoedig contact met je op!
                 </p>
-
                 <Form onSubmit={this.onSubmit} className='werkbijForm'>
                   <div className={voornaamGroupClass}>
                     <input
@@ -221,7 +221,6 @@ class WerkenBij extends Component {
                     />
                     <span className='help-block'>{voornaam.message} </span>
                   </div>
-
                   <div className={achternaamGroupClass}>
                     <input
                       type='text'
@@ -233,7 +232,6 @@ class WerkenBij extends Component {
                     />
                     <span className='help-block'>{achternaam.message}</span>
                   </div>
-
                   <div className={telefoonnummerGroupClass}>
                     <input
                       type='nu'

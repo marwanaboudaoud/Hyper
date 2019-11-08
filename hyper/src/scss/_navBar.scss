@@ -25,6 +25,7 @@
 .navbar-nav .nav-link {
   text-align: center;
 }
+
 .navbar-nav {
   @media (max-width: 769px) {
     padding-bottom: 280px;
@@ -70,7 +71,3 @@
 .navbar :hover {
   text-decoration: none;
 }
-
-// .mobileMenu {
-//   margin-left: 70px;
-// }

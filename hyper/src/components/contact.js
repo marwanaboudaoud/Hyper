@@ -108,6 +108,7 @@ class Contact extends Component {
   resetForm = () => {
     this.setState(...this.formDefaults)
   }
+
   render () {
     const {
       voornaam,
@@ -166,7 +167,6 @@ class Contact extends Component {
                   </p>
                 </div>
               </Col>
-
               <Col md={6} className='contactForm'>
                 <Form onSubmit={this.onSubmit}>
                   <Row>
@@ -198,7 +198,6 @@ class Contact extends Component {
                       </div>
                     </Col>
                   </Row>
-
                   <div className={telefoonnummerGroupClass}>
                     <input
                       type='nu'

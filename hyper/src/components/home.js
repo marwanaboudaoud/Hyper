@@ -30,12 +30,15 @@ class Home extends Component {
       this.setState({ isMobile: false })
     }
   }
+
   componentWillMount = () => {
     this.updateDimensions()
   }
+
   componentDidMount = () => {
     window.addEventListener('resize', this.updateDimensions)
   }
+
   componentWillUnmount = () => {
     window.removeEventListener('resize', this.updateDimensions)
   }
@@ -86,7 +89,6 @@ class Home extends Component {
               <Col md={6}>
                 <img className='home2Img' src={Home2} />
               </Col>
-
               <Col md={6}>
                 <div className='overOnsContainer'>
                   <h1 className='homeOverOns'>Over ons</h1>

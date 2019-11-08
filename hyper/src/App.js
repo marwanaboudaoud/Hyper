@@ -43,7 +43,7 @@ export default class App extends React.Component {
           >
             <Container>
               <Navbar.Brand className='navHome'>
-                <Link to='Home'>
+                <Link to='Home' className='nav-logo'>
                   {this.state.color === 'white' ? (
                     <img src={Logo} />
                   ) : (
@@ -51,7 +51,7 @@ export default class App extends React.Component {
                   )}
                 </Link>
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls='basic-navbar-nav' bg='light' />
+              <Navbar.Toggle aria-controls='basic-navbar-nav' />
               <Navbar.Collapse id='basic-navbar-nav '>
                 <Nav>
                   <Nav.Link

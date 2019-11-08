@@ -27,7 +27,11 @@
   margin-bottom: 60px;
   @media (max-width: 769px) {
     margin-bottom: 100px;
-    margin-top: 65px;
+    margin-top: 95px;
+    height: 75%;
+  }
+  @media (max-width: 399px) {
+    height: 71%;
   }
 }
 

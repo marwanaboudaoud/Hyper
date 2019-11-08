@@ -36,11 +36,11 @@
   box-shadow: 0 3px 10px 0 rgba(245, 130, 32, 0.2);
 
   @media (max-width: 769px) {
-    width: 350px;
-    margin-left: 40x;
+    width: 380px;
+    margin-left: 50x;
   }
   @media (max-width: 399px) {
-    width: 300px;
+    width: 260px;
     margin-left: 15px;
   }
 }
@@ -127,9 +127,9 @@
     margin-bottom: 20px;
   }
   @media (max-width: 399px) {
-    width: 300px;
+    width: 260px;
     margin-bottom: 50px;
-    margin-left: 25px;
+    margin-left: 20px;
   }
 }
 
@@ -225,6 +225,10 @@
     width: 270px;
     margin-left: 50px;
   }
+  @media (max-width: 399px) {
+    width: 260px;
+    margin-left: 20px;
+  }
 }
 
 .LastHomeSoliciteerBtn:hover {
@@ -246,6 +250,10 @@
   @media (max-width: 769px) {
     width: 270px;
     margin-left: 50px;
+  }
+  @media (max-width: 399px) {
+    width: 260px;
+    margin-left: 20px;
   }
 }
 
@@ -271,16 +279,3 @@
   display: none;
 }
 
-.animation {
-  color: orange;
-  font-size: 62px;
-  font-weight: bold;
-  position: relative;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: 2;
-  animation-direction: alternate;
-  @media (max-width: 769px) {
-    font-size: 42px;
-  }
-}

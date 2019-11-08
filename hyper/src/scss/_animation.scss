@@ -1,3 +1,20 @@
+.animation {
+  color: orange;
+  font-size: 62px;
+  font-weight: bold;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  @media (max-width: 769px) {
+    font-size: 42px;
+  }
+  @media (max-width: 399px) {
+    font-size: 39px;
+  }
+}
+
 .animationSpan {
   height: 60px;
   @media (max-width: 769px) {

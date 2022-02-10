@@ -9,7 +9,7 @@
     "google-map-react": "^1.1.5",
     "jquery": "^3.4.1",
     "mdbreact": "^4.22.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "radium": "^0.26.0",
     "react": "^16.11.0",
     "react-animations": "^1.0.0",
